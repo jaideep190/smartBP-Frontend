@@ -3,7 +3,7 @@
 </div>
 
 
-> Revolutionizing blood pressure measurement through video analysis
+ <h3 align="center">Revolutionizing blood pressure measurement through video analysis</h3>
 
 <p align="center">
   <img src="https://vitejs.dev/logo.svg" alt="Vite" width="50" height="50"/>
@@ -24,6 +24,10 @@ smartBP-Frontend is a cutting-edge, mobile-friendly web application that leverag
 - 🧠 **AI-Powered Analysis**: Utilize state-of-the-art machine learning models for blood pressure prediction
 - 📊 **Instant Results**: View your systolic and diastolic blood pressure values in real-time
 - 📱 **Responsive Design**: Optimized for seamless performance across all devices
+  
+## 🌐 Deployment
+
+Explore the live application at our [**deployment link**](https://smart-bp-frontend.vercel.app/)!
 
 ## 🛠️ Technologies
 
@@ -95,8 +99,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Thank you
 ---
 
-<p align="center">
-  Made with ❤️ by the smartBP Team
-</p>
 
 ![Footer Animation](path/to/footer-animation.gif)
