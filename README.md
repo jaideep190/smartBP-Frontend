@@ -48,24 +48,24 @@ Take a look at some screenshots from the application:
   <table>
     <tr>
       <td align="center">
-        <img src="assets/home.jpg" alt="Home Screen" width="200"/>
+        <img src="video-bp-app/assets/home.jpg" alt="Home Screen" width="200"/>
         <br/>
         <strong>Home Screen</strong>
       </td>
       <td align="center">
-        <img src="assets/help.jpg" alt="Help Screen" width="200"/>
+        <img src="video-bp-app/assets/help.jpg" alt="Help Screen" width="200"/>
         <br/>
         <strong>Help Screen</strong>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="assets/recording.jpg" alt="Recording Screen" width="200"/>
+        <img src="video-bp-app/assets/recording.jpg" alt="Recording Screen" width="200"/>
         <br/>
         <strong>Recording Screen</strong>
       </td>
       <td align="center">
-        <img src="assets/results.jpg" alt="Results Screen" width="200"/>
+        <img src="video-bp-app/assets/results.jpg" alt="Results Screen" width="200"/>
         <br/>
         <strong>Results Screen</strong>
       </td>
