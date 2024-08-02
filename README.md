@@ -40,6 +40,41 @@ smartBP-Frontend is a cutting-edge, mobile-friendly web application that leverag
 
 Explore the live application at our [**deployment link**](https://smart-bp-frontend.vercel.app/)!
 
+## 📸 Screenshots
+
+Take a look at some screenshots from the application:
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/home.jpg" alt="Home Screen" width="200"/>
+        <br/>
+        <strong>Home Screen</strong>
+      </td>
+      <td align="center">
+        <img src="assets/help.jpg" alt="Help Screen" width="200"/>
+        <br/>
+        <strong>Help Screen</strong>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="assets/recording.jpg" alt="Recording Screen" width="200"/>
+        <br/>
+        <strong>Recording Screen</strong>
+      </td>
+      <td align="center">
+        <img src="assets/results.jpg" alt="Results Screen" width="200"/>
+        <br/>
+        <strong>Results Screen</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="30"> Technologies
 
 - **[Vite](https://vitejs.dev/)**: Lightning-fast build tool and development server
