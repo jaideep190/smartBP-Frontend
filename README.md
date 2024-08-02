@@ -22,7 +22,9 @@
 
 smartBP is a cutting-edge, mobile-friendly web application that leverages the power of video processing and machine learning to measure blood pressure accurately and conveniently.
 
-![Demo GIF](path/to/demo.gif)
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> Deployment
+
+Explore the live application at our [**deployment link**](https://smart-bp-frontend.vercel.app/)!
 
 ## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Features
 
@@ -36,9 +38,6 @@ smartBP is a cutting-edge, mobile-friendly web application that leverages the po
   <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="300" height="200" alt="Health Tech GIF"/>
 </div>  
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> Deployment
-
-Explore the live application at our [**deployment link**](https://smart-bp-frontend.vercel.app/)!
 
 ## 📸 Screenshots
 
