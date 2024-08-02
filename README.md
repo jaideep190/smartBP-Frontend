@@ -20,11 +20,7 @@
   <img src="https://axios-http.com/assets/logo.svg" alt="Axios" width="50" height="50"/>
 </p>
 
-<div align="center">
-  <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="300" height="200" alt="Health Tech GIF"/>
-</div>
-
-smartBP-Frontend is a cutting-edge, mobile-friendly web application that leverages the power of video processing and machine learning to measure blood pressure accurately and conveniently.
+smartBP is a cutting-edge, mobile-friendly web application that leverages the power of video processing and machine learning to measure blood pressure accurately and conveniently.
 
 ![Demo GIF](path/to/demo.gif)
 
@@ -35,7 +31,11 @@ smartBP-Frontend is a cutting-edge, mobile-friendly web application that leverag
 - 🧠 **AI-Powered Analysis**: Utilize state-of-the-art machine learning models for blood pressure prediction
 - 📊 **Instant Results**: View your systolic and diastolic blood pressure values in real-time
 - 📱 **Responsive Design**: Optimized for seamless performance across all devices
-  
+
+<div align="center">
+  <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="300" height="200" alt="Health Tech GIF"/>
+</div>  
+
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> Deployment
 
 Explore the live application at our [**deployment link**](https://smart-bp-frontend.vercel.app/)!
