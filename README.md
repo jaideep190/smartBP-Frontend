@@ -1,9 +1,16 @@
 <div align="center">
-  <h1>🩺 SmartBP Frontend</h1>
+  <h1>
+    <img src="https://media.giphy.com/media/3o7TKMfn35NL1llPig/giphy.gif" width="30" height="30" alt="Stethoscope GIF"/>
+    SmartBP Frontend
+    <img src="https://media.giphy.com/media/3o7TKMfn35NL1llPig/giphy.gif" width="30" height="30" alt="Stethoscope GIF"/>
+  </h1>
 </div>
 
-
- <h3 align="center">Revolutionizing blood pressure measurement through video analysis</h3>
+<h3 align="center">
+  <img src="https://media.giphy.com/media/l46Cei9gnXYQVjFny/giphy.gif" width="20" height="20" alt="Pulse GIF"/>
+  Revolutionizing blood pressure measurement through video analysis
+  <img src="https://media.giphy.com/media/l46Cei9gnXYQVjFny/giphy.gif" width="20" height="20" alt="Pulse GIF"/>
+</h3>
 
 <p align="center">
   <img src="https://vitejs.dev/logo.svg" alt="Vite" width="50" height="50"/>
@@ -13,11 +20,15 @@
   <img src="https://axios-http.com/assets/logo.svg" alt="Axios" width="50" height="50"/>
 </p>
 
+<div align="center">
+  <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="300" height="200" alt="Health Tech GIF"/>
+</div>
+
 smartBP-Frontend is a cutting-edge, mobile-friendly web application that leverages the power of video processing and machine learning to measure blood pressure accurately and conveniently.
 
 ![Demo GIF](path/to/demo.gif)
 
-## 🌟 Features
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Features
 
 - 📹 **Video Recording**: Capture high-quality video using your device's rear camera
 - ⏱️ **Countdown Timer**: Ensure consistent recording duration for accurate results
@@ -25,11 +36,11 @@ smartBP-Frontend is a cutting-edge, mobile-friendly web application that leverag
 - 📊 **Instant Results**: View your systolic and diastolic blood pressure values in real-time
 - 📱 **Responsive Design**: Optimized for seamless performance across all devices
   
-## 🌐 Deployment
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> Deployment
 
 Explore the live application at our [**deployment link**](https://smart-bp-frontend.vercel.app/)!
 
-## 🛠️ Technologies
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="30"> Technologies
 
 - **[Vite](https://vitejs.dev/)**: Lightning-fast build tool and development server
 - **[React](https://reactjs.org/)**: Efficient, declarative UI library for building interactive interfaces
@@ -37,13 +48,12 @@ Explore the live application at our [**deployment link**](https://smart-bp-front
 - **[Material-UI](https://material-ui.com/)**: Comprehensive library of pre-built, customizable React components
 - **[Axios](https://axios-http.com/)**: Promise-based HTTP client for seamless API integration
 
-
-## 🚀 Getting Started
+## <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" width="30"> Getting Started
 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/smartBP-Frontend.git
+   git clone https://github.com/jaideep190/smartBP-Frontend.git
    cd smartBP-Frontend
    ```
 
@@ -61,7 +71,7 @@ Explore the live application at our [**deployment link**](https://smart-bp-front
 
    Visit `http://localhost:3000` in your browser to see the application in action!
 
-## 📱 Mobile Testing
+## <img src="https://media.giphy.com/media/13HBDT4QSTpveU/giphy.gif" width="30"> Mobile Testing
 
 To test smartBP on your mobile device:
 
@@ -84,11 +94,11 @@ To test smartBP on your mobile device:
 3. Start the development server
 4. Access the app on your mobile device using the provided network URL (e.g., `http://192.168.x.x:3000`)
 
-## 📄 License
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Acknowledgments
 
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
@@ -96,8 +106,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Material-UI](https://material-ui.com/)
 - [Axios](https://axios-http.com/)
 
-## 🙏 Thank you
+<div align="center">
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em>Thank you for visiting!</em>
+</div>
+
 ---
 
-
-![Footer Animation](path/to/footer-animation.gif)
+<div align="center">
+  <img src="https://media.giphy.com/media/kBZ212yGzFaxgkSIKW/giphy.gif" width="100" alt="Health Tech Footer Animation"/>
+</div>
