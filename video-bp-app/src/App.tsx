@@ -1,16 +1,47 @@
+// App.tsx
 import React, { useState } from 'react';
-import { Container, Typography, ThemeProvider, createTheme, CssBaseline } from '@mui/material';
+import { Container, Typography, ThemeProvider, createTheme, CssBaseline, Paper, Box, Button } from '@mui/material';
+import InfoIcon from '@mui/icons-material/Info';
 import VideoRecorder from './components/VideoRecorder';
 import ResultDisplay from './components/ResultDisplay';
+import Instructions from './components/Instructions';
 import { uploadVideo } from './services/api';
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#2196f3',
+      main: '#3f51b5',
     },
     secondary: {
       main: '#f50057',
+    },
+    background: {
+      default: '#f5f5f5',
+    },
+  },
+  typography: {
+    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    h4: {
+      fontWeight: 600,
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          borderRadius: 30,
+          textTransform: 'none',
+          fontWeight: 600,
+        },
+      },
+    },
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          borderRadius: 15,
+          boxShadow: '0 3px 5px 2px rgba(0, 0, 0, .1)',
+        },
+      },
     },
   },
 });
@@ -18,27 +49,58 @@ const theme = createTheme({
 const App: React.FC = () => {
   const [sbp, setSbp] = useState<number | null>(null);
   const [dbp, setDbp] = useState<number | null>(null);
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [isInstructionsOpen, setIsInstructionsOpen] = useState(false);
 
   const handleVideoRecorded = async (blob: Blob) => {
+    setIsProcessing(true);
     try {
       const result = await uploadVideo(blob);
       setSbp(result.sbp);
       setDbp(result.dbp);
     } catch (error) {
       console.error('Error processing video:', error);
+    } finally {
+      setIsProcessing(false);
     }
+  };
+
+  const handleOpenInstructions = () => {
+    setIsInstructionsOpen(true);
+  };
+
+  const handleCloseInstructions = () => {
+    setIsInstructionsOpen(false);
   };
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="sm" style={{ paddingTop: '20px' }}>
-        <Typography variant="h4" gutterBottom align="center">
-          Blood Pressure Measurement
-        </Typography>
-        <VideoRecorder onVideoRecorded={handleVideoRecorded} />
-        <ResultDisplay sbp={sbp} dbp={dbp} />
+      <Container maxWidth="sm">
+        <Box sx={{ py: 4 }}>
+          <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
+            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
+              <Typography variant="h4" color="primary">
+                Blood Pressure Monitor
+              </Typography>
+              <Button
+                variant="outlined"
+                color="primary"
+                startIcon={<InfoIcon />}
+                onClick={handleOpenInstructions}
+              >
+                help
+              </Button>
+            </Box>
+            <Typography variant="subtitle1" align="center" color="text.secondary" sx={{ mb: 3 }}>
+              Accurate measurements at your fingertips
+            </Typography>
+            <VideoRecorder onVideoRecorded={handleVideoRecorded} isProcessing={isProcessing} />
+          </Paper>
+          {!isProcessing && <ResultDisplay sbp={sbp} dbp={dbp} />}
+        </Box>
       </Container>
+      <Instructions isOpen={isInstructionsOpen} onClose={handleCloseInstructions} />
     </ThemeProvider>
   );
 };

@@ -14,7 +14,19 @@ export const uploadVideo = async (videoBlob: Blob): Promise<{ sbp: number; dbp: 
     });
     return response.data;
   } catch (error) {
-    console.error('Error uploading video:', error);
+    if (axios.isAxiosError(error)) {
+      if (error.response) {
+        console.error('Error response:', error.response.data);
+        console.error('Error status:', error.response.status);
+        console.error('Error headers:', error.response.headers);
+      } else if (error.request) {
+        console.error('Error request:', error.request);
+      } else {
+        console.error('Error message:', error.message);
+      }
+    } else {
+      console.error('Unexpected error:', error);
+    }
     throw error;
   }
 };
