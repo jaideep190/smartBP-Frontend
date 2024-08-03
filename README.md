@@ -15,7 +15,6 @@
 <p align="center">
   <img src="https://vitejs.dev/logo.svg" alt="Vite" width="50" height="50"/>
   <img src="https://reactjs.org/logo-180x180.png" alt="React" width="50" height="50"/>
-  <img src="https://w7.pngwing.com/pngs/74/362/png-transparent-typescript-plain-logo-icon-thumbnail.png" alt="TypeScript" width="50" height="50"/>
   <img src="https://mui.com/static/logo.png" alt="Material-UI" width="50" height="50"/>
   <img src="https://axios-http.com/assets/logo.svg" alt="Axios" width="50" height="50"/>
 </p>
@@ -78,7 +77,6 @@ Take a look at some screenshots from the application:
 
 - **[Vite](https://vitejs.dev/)**: Lightning-fast build tool and development server
 - **[React](https://reactjs.org/)**: Efficient, declarative UI library for building interactive interfaces
-- **[TypeScript](https://www.typescriptlang.org/)**: Strongly-typed programming language for robust application development
 - **[Material-UI](https://material-ui.com/)**: Comprehensive library of pre-built, customizable React components
 - **[Axios](https://axios-http.com/)**: Promise-based HTTP client for seamless API integration
 
@@ -136,7 +134,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
 - [Material-UI](https://material-ui.com/)
 - [Axios](https://axios-http.com/)
 
