@@ -99,7 +99,7 @@ const App: React.FC = () => {
                   onClick={() => window.open('https://unet-research-work.vercel.app', '_blank')}
                   sx={{ flexGrow: 1 }}
                 >
-                  Predication Mechanism
+                  Prediction Mechanism
                 </Button>
               </Box>
             </Box>
