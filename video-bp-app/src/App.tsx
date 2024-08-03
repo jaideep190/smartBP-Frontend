@@ -79,8 +79,17 @@ const App: React.FC = () => {
         <Box sx={{ py: 4 }}>
           <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
             <Box sx={{ mb: 2 }}>
-              <Typography variant="h4" color="primary" sx={{ mb: 2 }}>
+              <Typography variant="h4" color="primary" align="center" sx={{ mb: 2 }}>
                 Blood Pressure Monitor
+              </Typography>
+              <Typography variant="body2" color="primary" align="left" sx={{ mb: 3 }}>
+                Website Developer : Thakur Jaideep Singh
+                <br />
+                Github: <a href="https://github.com/jaideep190">jaideep190</a>
+                <br />
+                LinkedIn: <a href="https://www.linkedin.com/in/jaideep190">jaideep190</a>
+                <br />
+                Email: ajaiajai710@gmail.com
               </Typography>
               <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: 2 }}>
                 <Button
@@ -96,18 +105,15 @@ const App: React.FC = () => {
                   variant="outlined"
                   color="primary"
                   startIcon={<InfoIcon />}
-                  onClick={() => window.open('https://unet-research-work.vercel.app', '_blank')}
+                  onClick={() => window.open('https://magu-net-smartbp.vercel.app/', '_blank')}
                   sx={{ flexGrow: 1 }}
                 >
                   Prediction Mechanism
                 </Button>
               </Box>
             </Box>
-            <Typography variant="subtitle1" align="center" color="text.secondary" sx={{ mb: 3 }}>
-              Accurate measurements at your fingertips
-            </Typography>
             <Typography variant="body2" align="center" color="error" sx={{ mb: 3 }}>
-              Note: The model is deployed on a free tier server and may be inactive at the moment.
+              Note: The model is deployed on a free tier server and might be inactive at the moment.
             </Typography>
             <VideoRecorder onVideoRecorded={handleVideoRecorded} isProcessing={isProcessing} />
           </Paper>
