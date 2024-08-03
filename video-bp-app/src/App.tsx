@@ -1,4 +1,3 @@
-// App.tsx
 import React, { useState } from 'react';
 import { Container, Typography, ThemeProvider, createTheme, CssBaseline, Paper, Box, Button } from '@mui/material';
 import InfoIcon from '@mui/icons-material/Info';
@@ -79,21 +78,36 @@ const App: React.FC = () => {
       <Container maxWidth="sm">
         <Box sx={{ py: 4 }}>
           <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
-            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
-              <Typography variant="h4" color="primary">
+            <Box sx={{ mb: 2 }}>
+              <Typography variant="h4" color="primary" sx={{ mb: 2 }}>
                 Blood Pressure Monitor
               </Typography>
-              <Button
-                variant="outlined"
-                color="primary"
-                startIcon={<InfoIcon />}
-                onClick={handleOpenInstructions}
-              >
-                help
-              </Button>
+              <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: 2 }}>
+                <Button
+                  variant="outlined"
+                  color="primary"
+                  startIcon={<InfoIcon />}
+                  onClick={handleOpenInstructions}
+                  sx={{ flexGrow: 1 }}
+                >
+                  Help
+                </Button>
+                <Button
+                  variant="outlined"
+                  color="primary"
+                  startIcon={<InfoIcon />}
+                  onClick={() => window.open('https://unet-research-work.vercel.app', '_blank')}
+                  sx={{ flexGrow: 1 }}
+                >
+                  Predication Mechanism
+                </Button>
+              </Box>
             </Box>
             <Typography variant="subtitle1" align="center" color="text.secondary" sx={{ mb: 3 }}>
               Accurate measurements at your fingertips
+            </Typography>
+            <Typography variant="body2" align="center" color="error" sx={{ mb: 3 }}>
+              Note: The model is deployed on a free tier server and may be inactive at the moment.
             </Typography>
             <VideoRecorder onVideoRecorded={handleVideoRecorded} isProcessing={isProcessing} />
           </Paper>
