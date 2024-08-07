@@ -5,6 +5,7 @@ import VideoRecorder from './components/VideoRecorder';
 import ResultDisplay from './components/ResultDisplay';
 import Instructions from './components/Instructions';
 import { uploadVideo } from './services/api';
+import Pinger from './components/Pinger';
 
 const theme = createTheme({
   palette: {
@@ -114,6 +115,7 @@ const App: React.FC = () => {
             </Box>
             <Typography variant="body2" align="center" color="error" sx={{ mb: 3 }}>
               Note: The model is deployed on a free tier server and might be inactive at the moment.
+              <Pinger></Pinger>
             </Typography>
             <VideoRecorder onVideoRecorded={handleVideoRecorded} isProcessing={isProcessing} />
           </Paper>
