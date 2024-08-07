@@ -7,8 +7,10 @@ const Pinger: React.FC = () => {
   useEffect(() => {
     const fetchLastPingedTime = async () => {
       try {
-        setLastPingedTime(new Date().toLocaleString());
-        console.log('Last Pinged Time:', lastPingedTime);
+        await axios.get('https://smartbp-backend.onrender.com/');
+        const currentTime = new Date().toLocaleTimeString();
+        setLastPingedTime(currentTime);
+        console.log('Last Pinged Time:', currentTime);
       } catch (error) {
         console.error('Error fetching last pinged time:', error);
       }
@@ -23,7 +25,7 @@ const Pinger: React.FC = () => {
 
   return (
     <div>
-      <p>Last Pinged : {lastPingedTime} (to maintain server activity)</p>
+      <p>Last Pinged Time: {lastPingedTime} (to keep the server active)</p>
     </div>
   );
 };
