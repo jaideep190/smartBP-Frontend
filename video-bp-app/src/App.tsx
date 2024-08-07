@@ -81,7 +81,7 @@ const App: React.FC = () => {
           <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
             <Box sx={{ mb: 2 }}>
               <Typography variant="h4" color="primary" align="center" sx={{ mb: 2 }}>
-                Blood Pressure Monitor
+                smartBP
               </Typography>
               <Typography variant="body2" color="primary" align="left" sx={{ mb: 3 }}>
                 Website Developer : Thakur Jaideep Singh
